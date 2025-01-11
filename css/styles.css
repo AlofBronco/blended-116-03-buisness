@@ -1,0 +1,137 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color: #22343d;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.green-btn {
+  font-weight: 700;
+  color: #fff;
+  border-radius: 4px;
+  background: #02897a;
+  border: none;
+}
+
+.light-text {
+  line-height: 1.63;
+}
+
+.light-subtitle {
+  line-height: 1.63;
+  font-weight: 600;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
+
+.list-link {
+  font-weight: 400;
+  line-height: 1.75;
+  color: #22343d;
+}
+
+.active {
+  font-weight: 600;
+}
+
+.btn-sign {
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.sign-in {
+  text-align: center;
+  color: #173a56;
+  background-color: #fff;
+  border: 1px solid #bcd0e5;
+  width: 105px;
+  height: 42px;
+}
+
+.sign-up {
+  color: #fff;
+  background-color: #02897a;
+  border: none;
+  width: 113px;
+  height: 42px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+
+.hero-btn-start {
+  width: 178px;
+  height: 53px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-btn-video {
+  width: 164px;
+  height: 23px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.description .section-title {
+  text-align: center;
+}
+
+.desc-subtitle {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.desc-btn {
+  width: 175px;
+  height: 53px;
+}
+
+.section-pretitle {
+  font-weight: 600;
+}
