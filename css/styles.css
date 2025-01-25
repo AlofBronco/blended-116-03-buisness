@@ -161,6 +161,10 @@ img {
   max-width: 164px;
 }
 
+.video-icon {
+  fill: #02897a;
+}
+
 .hero-btn-video {
   width: 164px;
   height: 23px;
@@ -180,6 +184,35 @@ img {
 
 .description .section-title {
   text-align: center;
+}
+
+.desc-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 19px;
+}
+
+.icon-green {
+  background-color: #02897a;
+}
+
+.icon-blue {
+  background-color: #4d8dff;
+}
+
+.icon-purple {
+  background-color: #740a76;
+}
+
+.icon-red {
+  background-color: #f03e3d;
+}
+
+.desc-icon {
+  fill: #fff;
 }
 
 .desc-subtitle {
