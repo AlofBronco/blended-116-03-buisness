@@ -32,7 +32,7 @@ img {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1150px;
   padding: 0 20px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -50,15 +50,6 @@ img {
   border-radius: 4px;
   background: #02897a;
   border: none;
-}
-
-.light-text {
-  line-height: 1.63;
-}
-
-.light-subtitle {
-  line-height: 1.63;
-  font-weight: 600;
 }
 
 .logo {
@@ -177,13 +168,23 @@ img {
   cursor: pointer;
 }
 
-.section-title {
+.desc-title {
   font-weight: 700;
   font-size: 32px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 539px;
+  margin-bottom: 50px;
 }
 
-.description .section-title {
-  text-align: center;
+.desc-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.desc-item {
+  flex-basis: calc((100% - 30px * 3) / 4);
 }
 
 .desc-icon-wrapper {
@@ -193,6 +194,7 @@ img {
   width: 54px;
   height: 54px;
   border-radius: 19px;
+  margin-bottom: 20px;
 }
 
 .icon-green {
@@ -218,19 +220,28 @@ img {
 .desc-subtitle {
   font-weight: 600;
   font-size: 22px;
+  margin-bottom: 13px;
 }
 
 .desc-btn {
+  display: block;
   width: 175px;
   height: 53px;
+  margin: 0 auto;
 }
 
-.section-pretitle {
+.management-title {
+  max-width: 224px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.management-span {
   font-weight: 600;
-}
-
-.team .section-title {
-  text-align: center;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 
 .team-aftertitle {
