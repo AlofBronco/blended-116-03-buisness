@@ -48,7 +48,7 @@ img {
   font-weight: 700;
   color: #fff;
   border-radius: 4px;
-  background: #02897a;
+  background-color: #02897a;
   border: none;
 }
 
@@ -234,6 +234,7 @@ img {
   width: 175px;
   height: 53px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .advantages-container {
@@ -311,7 +312,7 @@ img {
 }
 
 .tick-yellow {
-  background: #f90;
+  background-color: #f90;
 }
 
 .support .advantages-subtext {
@@ -368,12 +369,14 @@ img {
   border: none;
   border-radius: 4px;
   font-weight: 700;
-  background: #02897a;
+  background-color: #02897a;
   color: #fff;
+  cursor: pointer;
 }
 
 .strategies-title {
   font-size: 34px;
+  margin-bottom: 10px;
 }
 
 .strategies-text {
@@ -389,7 +392,7 @@ img {
 }
 
 .strategies-item {
-  max-width: 350px;
+  flex-basis: calc((100% - 30px * 2) / 3);
   border: 1px solid #dedede;
   border-radius: 8px;
 }
@@ -419,5 +422,126 @@ img {
 }
 
 .strategies-item:nth-child(even) .strategies-subtitle {
+  color: #02897a;
+}
+
+.price-title {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.price-text {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.price-list {
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+}
+
+.price-item {
+  flex-basis: calc((100% - 72px * 2) / 3);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 32px 66px;
+  text-align: center;
+}
+
+.price-item:nth-child(even) {
+  background-color: #02897a;
+  color: #fff;
+}
+
+.price-subtitle {
+  font-size: 24px;
+  line-height: 1.66667;
+  margin-bottom: 8px;
+}
+
+.price-desc {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2.5;
+  margin-bottom: 16px;
+}
+
+.price-subtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.price-item:nth-child(even) .price-subtext-dol,
+.price-item:nth-child(even) .price-subtext-num {
+  color: #fff;
+}
+
+.price-item:nth-child(even) .price-subtext-month {
+  color: #e0e0e0;
+}
+
+.price-subtext-num {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+  color: #02897a;
+  margin-right: 10px;
+  text-align: initial;
+}
+
+.price-subtext-dol {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  margin-bottom: 7px;
+  text-align: initial;
+}
+
+.price-subtext-month {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+  text-align: initial;
+}
+
+.price-sublist {
+  margin-bottom: 30px;
+}
+
+.price-subitem-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+}
+
+.price-subitem:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.price-button {
+  background-color: #02897a;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.price-item:nth-child(even) .price-button {
+  background-color: #fff;
   color: #02897a;
 }
