@@ -418,7 +418,7 @@ img {
 
 .strategies-subtitle {
   font-size: 24px;
-  line-height: 1.66667;
+  line-height: 1.667;
 }
 
 .strategies-item:nth-child(even) .strategies-subtitle {
@@ -458,7 +458,7 @@ img {
 
 .price-subtitle {
   font-size: 24px;
-  line-height: 1.66667;
+  line-height: 1.667;
   margin-bottom: 8px;
 }
 
@@ -488,7 +488,7 @@ img {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 76px;
-  line-height: 1.31579;
+  line-height: 1.32;
   letter-spacing: 0em;
   color: #02897a;
   margin-right: 10px;
@@ -508,7 +508,7 @@ img {
 
 .price-subtext-month {
   font-family: 'Montserrat', sans-serif;
-  line-height: 1.1875;
+  line-height: 1.188;
   letter-spacing: 0.01em;
   color: #afafaf;
   text-align: initial;
@@ -543,5 +543,103 @@ img {
 
 .price-item:nth-child(even) .price-button {
   background-color: #fff;
+  color: #02897a;
+}
+
+.reviews-title {
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+  margin-bottom: 10px;
+}
+
+.reviews-text {
+  max-width: 537px;
+  margin: 0 auto;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reviews-span {
+  display: block;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 64px;
+}
+
+.reviews-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-basis: calc((100% - 64px * 2) / 3);
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 28px 26px;
+}
+
+.reviews-svg {
+  fill: #f3cd03;
+}
+
+.reviews-subtext {
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+}
+
+.reviews-item-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.reviews-img {
+  margin-right: 14px;
+}
+
+.reviews-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+.reviews-subtext-second {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+
+.advertisement-container {
+}
+
+.advertisement-wrapper {
+  display: flex;
+  background: #02897a;
+  border-radius: 32px;
+}
+
+.advertisement-title {
+  max-width: 510px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+}
+
+.advertisement-button {
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 600;
+  font-size: 20px;
   color: #02897a;
 }
